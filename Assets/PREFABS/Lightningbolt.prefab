@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8825612841662210222
+--- !u!1 &8461864392132381278
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6712480584013171323}
-  - component: {fileID: 5627454498048591601}
-  - component: {fileID: 5819643262499218738}
-  - component: {fileID: -2705561299010331676}
+  - component: {fileID: 135496076411061784}
+  - component: {fileID: 3438831632323760565}
+  - component: {fileID: -9081357905319593179}
+  - component: {fileID: -3482665318945227308}
   m_Layer: 0
-  m_Name: Fireball
+  m_Name: Lightningbolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6712480584013171323
+--- !u!4 &135496076411061784
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8825612841662210222}
+  m_GameObject: {fileID: 8461864392132381278}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.49, y: 0.55, z: 0}
-  m_LocalScale: {x: 0.2364, y: 0.2364, z: 0.2364}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5627454498048591601
+--- !u!212 &3438831632323760565
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8825612841662210222}
+  m_GameObject: {fileID: 8461864392132381278}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,41 +74,41 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: b7f850e85c4d49744bbd73f6e3e8d5b3, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: f5b8224cefe63d94ab5882aa55a83f95, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.61, y: 3.11}
+  m_Size: {x: 8.35, y: 1.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5819643262499218738
+--- !u!114 &-9081357905319593179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8825612841662210222}
+  m_GameObject: {fileID: 8461864392132381278}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccd66898dd10e4e48b73c457e670f883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &-2705561299010331676
+--- !u!82 &-3482665318945227308
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8825612841662210222}
+  m_GameObject: {fileID: 8461864392132381278}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6991456c616eeb7448a5ff1bf0bbcc76, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bff61f441cef6c2419b181c72dfeba11, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

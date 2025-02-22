@@ -7,8 +7,10 @@ public class AttackSpawner : MonoBehaviour
     float speed = 0.1f;
     //public gameobjects to be referenced
     public GameObject Fireball; 
+    public GameObject Lightningbolt;
     //Spawned objects
     GameObject fireball;
+    GameObject lightningbolt;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,9 @@ public class AttackSpawner : MonoBehaviour
     }
     public void spawnFireball() {
         fireball = Instantiate(Fireball);
+    }
+      public void spawnLightningbolt() {
+        lightningbolt = Instantiate(Lightningbolt);
     }
 
 }

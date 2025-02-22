@@ -290,6 +290,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &825077435
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 135496076411061784, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 135496076411061784, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 135496076411061784, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135496076411061784, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 135496076411061784, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135496076411061784, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135496076411061784, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135496076411061784, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135496076411061784, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135496076411061784, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461864392132381278, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
+      propertyPath: m_Name
+      value: Lightningbolt
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
 --- !u!1 &1054252947
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,7 +432,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1682110024}
         m_TargetAssemblyTypeName: AttackSpawner, Assembly-CSharp
-        m_MethodName: spawnFireball
+        m_MethodName: spawnLightningbolt
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -747,6 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Fireball: {fileID: 8825612841662210222, guid: d7be14119a93dda4e80deede46e7d9ac, type: 3}
+  Lightningbolt: {fileID: 8461864392132381278, guid: 8e56fcb477afba84e8b5dfceb8bf8f31, type: 3}
 --- !u!1 &1750816965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,3 +1370,4 @@ SceneRoots:
   - {fileID: 1328180381}
   - {fileID: 1931758991}
   - {fileID: 1682110023}
+  - {fileID: 825077435}
